@@ -15,6 +15,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 
 import com.example.vegetarianrecipes.R;
+import com.example.vegetarianrecipes.activities.DetailActivity;
 import com.example.vegetarianrecipes.objects.Dezerti;
 
 import java.util.List;
@@ -67,6 +68,18 @@ public class DezertiAdapter extends RecyclerView.Adapter<DezertiAdapter.ViewHold
             @Override
             public void onClick(View view) {
 
+                Intent detaljiIntent = new Intent( mContext, DetailActivity.class );
+
+                detaljiIntent.putExtra( mContext.getString( R.string.kategorija ), mKategorija );
+
+                detaljiIntent.putExtra( mContext.getString( R.string.image_id ),
+                        dezerti.getmDezertiSlikaId() );
+                detaljiIntent.putExtra( mContext.getString( R.string.naziv ),
+                        dezerti.getmDezertiNaziv() );
+                detaljiIntent.putExtra( mContext.getString( R.string.opis ),
+                        dezerti.getmDezertiOpis() );
+
+                mContext.startActivity( detaljiIntent );
 
             }
         } );

@@ -19,5 +19,8 @@
     <dimen name="layout_height_salate">160dp</dimen>
 
     <dimen name="layout_height_dezerti">160dp</dimen>
+    <dimen name="layout_height_detail_image">220dp</dimen>
+    <dimen name="padding_bottom">8dp</dimen>
+    <dimen name="drawable_padding">8dp</dimen>
 
 </resources>

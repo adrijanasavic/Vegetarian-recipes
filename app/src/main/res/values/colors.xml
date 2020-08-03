@@ -9,4 +9,15 @@
 
     <color name="color_center">#f6ff42</color>
 
+    <color name="color_detail_background">#ffeeff</color>
+
+    <color name="color_predjelo">#e5ffff</color>
+    <color name="color_predjelo_tekst">#1A237E</color>
+    <color name="color_glavno_jelo">#e6deee</color>
+    <color name="color_glavno_jelo_tekst">#3E2723</color>
+    <color name="color_salate">#f8ffd7</color>
+    <color name="color_salate_tekst">#1B5E20</color>
+    <color name="color_dezert">#ffecb3</color>
+    <color name="color_dezert_text">#4A148C</color>
+
 </resources>

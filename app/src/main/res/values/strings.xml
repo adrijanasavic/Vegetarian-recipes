@@ -7,6 +7,14 @@
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
+    <string name="kategorija">kategorija</string>
+
+    <!-- Strings for intent -->
+    <string name="image_id">image ID</string>
+    <string name="naziv">name</string>
+    <string name="kratak_opis">kratak opis</string>
+    <string name="opis">opis</string>
+
     <!-- Kategorije -->
     <string name="basic_info">Osnovne informacije</string>
     <string name="predjela">Predjela</string>

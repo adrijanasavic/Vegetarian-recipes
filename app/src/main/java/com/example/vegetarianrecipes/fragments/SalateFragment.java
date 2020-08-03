@@ -38,7 +38,7 @@ public class SalateFragment extends Fragment {
 
         salate = new ArrayList<>();
 
-        addAttractions();
+        addSalate();
 
         recyclerView.setAdapter( new SalateAdapter( getActivity(), salate, SALATE ) );
 
@@ -46,7 +46,7 @@ public class SalateFragment extends Fragment {
     }
 
 
-    private void addAttractions() {
+    private void addSalate() {
         salate.add( new Jela( R.drawable.vege,
                 getString( R.string.salata1 ),
                 getString( R.string.salata1_opis ),

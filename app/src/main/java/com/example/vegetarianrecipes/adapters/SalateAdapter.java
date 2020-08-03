@@ -15,6 +15,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 
 import com.example.vegetarianrecipes.R;
+import com.example.vegetarianrecipes.activities.DetailActivity;
 import com.example.vegetarianrecipes.objects.Jela;
 
 import java.util.List;
@@ -66,6 +67,18 @@ public class SalateAdapter extends RecyclerView.Adapter<SalateAdapter.ViewHolder
             @Override
             public void onClick(View view) {
 
+                Intent detaljiIntent = new Intent( mContext, DetailActivity.class );
+
+                detaljiIntent.putExtra( mContext.getString( R.string.kategorija ), mKategorija );
+
+                detaljiIntent.putExtra( mContext.getString( R.string.image_id ),
+                        jela.getmJelaSlikaId() );
+                detaljiIntent.putExtra( mContext.getString( R.string.naziv ),
+                        jela.getmJelaNaziv() );
+                detaljiIntent.putExtra( mContext.getString( R.string.opis ),
+                        jela.getmJelaOpis() );
+
+                mContext.startActivity( detaljiIntent );
             }
         } );
     }

@@ -15,6 +15,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 
 import com.example.vegetarianrecipes.R;
+import com.example.vegetarianrecipes.activities.DetailActivity;
 import com.example.vegetarianrecipes.objects.Jela;
 
 import java.util.List;
@@ -68,6 +69,21 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHo
         holder.cardView.setOnClickListener( new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
+                Intent detailIntent = new Intent( mContext, DetailActivity.class );
+
+                detailIntent.putExtra( mContext.getString( R.string.kategorija ), mKategorija );
+
+                detailIntent.putExtra( mContext.getString( R.string.image_id ),
+                        jela.getmJelaSlikaId() );
+                detailIntent.putExtra( mContext.getString( R.string.naziv ),
+                        jela.getmJelaNaziv() );
+                detailIntent.putExtra( mContext.getString( R.string.kratak_opis ),
+                        jela.getmJelaKratakOpis() );
+                detailIntent.putExtra( mContext.getString( R.string.opis ),
+                        jela.getmJelaOpis() );
+
+                mContext.startActivity( detailIntent );
 
             }
         } );

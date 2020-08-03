@@ -37,13 +37,13 @@ public class DezertiFragment extends Fragment {
 
         dezerti = new ArrayList<>();
 
-        addFoods();
+        addDezerti();
 
         recyclerView.setAdapter( new DezertiAdapter( getActivity(), dezerti, DEZERTI ) );
         return rootView;
     }
 
-    private void addFoods() {
+    private void addDezerti() {
         dezerti.add( new Dezerti( R.drawable.vege,
                 getString( R.string.dezert1 ),
 
