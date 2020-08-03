@@ -15,4 +15,21 @@
     <string name="dezerti">Dezerti</string>
     <string name="detail">Detail</string>
 
+    <!-- String for content description -->
+    <string name="info_slika">Info slika</string>
+    <string name="image_des">Slika</string>
+
+
+    <!-- Informacije -->
+    <string name="vegan">Veganski recepti</string>
+    <string name="vegan_information">Ovo je Veganski kutak sa zdravim i ukusnim obrocima :)</string>
+
+    <!-- Informacije1 -->
+    <string name="vegani">Vegani</string>
+    <string name="vegani_opis">Činjenica je da nisu svi postali vegani iz istog razloga. Naime, jedni se odlučuju za vegansku ishranu zbog zdravlja, a drugi izbacuju sve namirnice životinjskog porekla zbog ljubavi prema životinjama. Svakako, ima i onih koji u veganstvo prelaze zbog vere, društva, okoline, partnera, alergija, srčanih problema, viška kilograma…</string>
+
+    <!-- Informacije2 -->
+    <string name="autor">Autor aplikacije</string>
+    <string name="autor_opis">Adrijana Savić</string>
+
 </resources>
