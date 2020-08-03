@@ -3,4 +3,16 @@
     <string name="vega">Veganski recepti</string>
     <string name="splashtime_key">splashtime_settings</string>
     <string name="splash_key">splash_settings</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- Kategorije -->
+    <string name="basic_info">Osnovne informacije</string>
+    <string name="predjela">Predjela</string>
+    <string name="glavna_jela">Glavna jela</string>
+    <string name="salate">Salate</string>
+    <string name="dezerti">Dezerti</string>
+    <string name="detail">Detail</string>
+
 </resources>

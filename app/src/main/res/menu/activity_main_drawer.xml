@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_info"
+            android:icon="@drawable/ic_info"
+            android:title="@string/basic_info" />
+        <item
+            android:id="@+id/predjela"
+            android:icon="@drawable/ic_restaurant"
+            android:title="@string/predjela" />
+        <item
+            android:id="@+id/glavna_jela"
+            android:icon="@drawable/ic_restaurant"
+            android:title="@string/glavna_jela" />
+        <item
+            android:id="@+id/salate"
+            android:icon="@drawable/ic_restaurant"
+            android:title="@string/salate" />
+        <item
+            android:id="@+id/dezerti"
+            android:icon="@drawable/ic_restaurant"
+            android:title="@string/dezerti" />
+    </group>
+
+
+
+</menu>
