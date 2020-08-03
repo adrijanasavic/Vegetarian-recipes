@@ -40,4 +40,33 @@
         <item name="android:background">@color/color_light_green_500</item>
     </style>
 
+    <!-- Style ImageView in the card_item.xml -->
+    <style name="ImageViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/layout_height_image</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:contentDescription">@string/image_des</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <!-- Style Naziv textView in the card_item.xml -->
+    <style name="NazivCardStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:padding">@dimen/padding_text_view</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <!-- Style kratak opis textView in the card_item.xml -->
+    <style name="OpisKratakCardStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentStart">true</item>
+        <item name="android:layout_below">@+id/frame</item>
+        <item name="android:padding">@dimen/padding_text_view</item>
+        <item name="android:textColor">@color/color_green_900</item>
+    </style>
+
 </resources>

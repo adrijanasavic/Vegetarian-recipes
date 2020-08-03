@@ -32,4 +32,65 @@
     <string name="autor">Autor aplikacije</string>
     <string name="autor_opis">Adrijana Savić</string>
 
+    <!-- Predjela  -->
+    <!-- Predjelo1 -->
+    <string name="predjelo1">Predjelo 1</string>
+    <string name="predjelo1_opis">Opis predjela1</string>
+    <string name="predjelo1_opis_detalji">Detalji predjela</string>
+
+    <!-- Predjelo2 -->
+    <string name="predjelo2">Predjelo 2</string>
+    <string name="predjelo2_opis">Opis predjela2</string>
+    <string name="predjelo2_opis_detalji">Detalji predjela</string>
+
+    <!-- Predjelo3 -->
+    <string name="predjelo3">Predjelo 3</string>
+    <string name="predjelo3_opis">Opis predjela</string>
+    <string name="predjelo3_opis_detalji">Detalji predjela</string>
+
+    <!-- Predjelo4 -->
+    <string name="predjelo4">Predjelo 4</string>
+    <string name="predjelo4_opis">Opis predjela</string>
+    <string name="predjelo4_opis_detalji">Detalji predjela</string>
+
+    <!-- Predjelo5 -->
+    <string name="predjelo5">Predjelo 5</string>
+    <string name="predjelo5_opis">Opis predjela</string>
+    <string name="predjelo5_opis_detalji">Detalji predjela</string>
+
+    <!-- Predjelo6 -->
+    <string name="predjelo6">Predjelo 6</string>
+    <string name="predjelo6_opis">Opis predjela</string>
+    <string name="predjelo6_opis_detalji">Detalji predjela</string>
+
+    <!-- Predjelo7 -->
+    <string name="predjelo7">Predjelo 7</string>
+    <string name="predjelo7_opis">Opis predjela</string>
+    <string name="predjelo7_opis_detalji">Detalji predjela</string>
+
+    <!-- Predjelo8 -->
+    <string name="predjelo8">Predjelo 8</string>
+    <string name="predjelo8_opis">Opis predjela</string>
+    <string name="predjelo8_opis_detalji">Detalji predjela</string>
+
+    <!-- Predjelo9 -->
+    <string name="predjelo9">Predjelo 9</string>
+    <string name="predjelo9_opis">Opis predjela</string>
+    <string name="predjelo9_opis_detalji">Detalji predjela</string>
+
+    <!-- Predjelo10 -->
+    <string name="predjelo10">Predjelo 10</string>
+    <string name="predjelo10_opis">Opis predjela</string>
+    <string name="predjelo10_opis_detalji">Detalji predjela</string>
+
+    <!-- Predjelo11 -->
+    <string name="predjelo11">Predjelo 11</string>
+    <string name="predjelo11_opis">Opis predjela</string>
+    <string name="predjelo11_opis_detalji">Detalji predjela</string>
+
+    <!-- Predjelo12 -->
+    <string name="predjelo12">Predjelo 12</string>
+    <string name="predjelo12_opis">Opis predjela</string>
+    <string name="predjelo12_opis_detalji">Detalji predjela</string>
+
 </resources>

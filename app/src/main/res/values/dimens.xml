@@ -9,5 +9,9 @@
     <dimen name="padding_top">8dp</dimen>
 
     <dimen name="layout_height_seoul_scenery">260dp</dimen>
+    <dimen name="layout_margin_card">5dp</dimen>
+    <dimen name="card_corner_radius">8dp</dimen>
+    <dimen name="layout_height_image">200dp</dimen>
+    <dimen name="padding_text_view">10dp</dimen>
 
 </resources>

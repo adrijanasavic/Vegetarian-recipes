@@ -13,6 +13,7 @@ import android.view.MenuItem;
 
 import com.example.vegetarianrecipes.R;
 import com.example.vegetarianrecipes.fragments.InformacijeFragment;
+import com.example.vegetarianrecipes.fragments.PredjelaFragment;
 import com.google.android.material.navigation.NavigationView;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
@@ -63,6 +64,11 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         if (id == R.id.nav_info) {
             fragmentManager.beginTransaction()
                     .replace( R.id.content_fragment, new InformacijeFragment() )
+                    .commit();
+
+        } else if (id == R.id.predjela) {
+            fragmentManager.beginTransaction()
+                    .replace( R.id.content_fragment, new PredjelaFragment() )
                     .commit();
         }
         DrawerLayout drawer = findViewById( R.id.drawer_layout );
