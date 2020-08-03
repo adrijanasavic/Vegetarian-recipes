@@ -93,4 +93,36 @@
     <string name="predjelo12_opis">Opis predjela</string>
     <string name="predjelo12_opis_detalji">Detalji predjela</string>
 
+    <!-- Glavna jela -->
+    <!--Glavno jelo1 -->
+    <string name="glavno_jelo1">Glavno jelo1</string>
+    <string name="glavno_jelo1_opis">Opis glavnog jela </string>
+    <string name="glavno_jelo1_detail_opis">Detalji glavnog jela</string>
+
+    <!--Glavno jelo2 -->
+    <string name="glavno_jelo2">Glavno jelo2</string>
+    <string name="glavno_jelo2_opis">Opis glavnog jela </string>
+    <string name="glavno_jelo2_detail_opis">Detalji glavnog jela</string>
+
+    <!--Glavno jelo3 -->
+    <string name="glavno_jelo3">Glavno jelo2</string>
+    <string name="glavno_jelo3_opis">Opis glavnog jela </string>
+    <string name="glavno_jelo3_detail_opis">Detalji glavnog jela</string>
+
+    <!--Glavno jelo4 -->
+    <string name="glavno_jelo4">Glavno jelo1</string>
+    <string name="glavno_jelo4_opis">Opis glavnog jela </string>
+    <string name="glavno_jelo4_detail_opis">Detalji glavnog jela</string>
+
+    <!--Glavno jelo5 -->
+    <string name="glavno_jelo5">Glavno jelo1</string>
+    <string name="glavno_jelo5_opis">Opis glavnog jela </string>
+    <string name="glavno_jelo5_detail_opis">Detalji glavnog jela</string>
+
+    <!--Glavno jelo6 -->
+    <string name="glavno_jelo6">Glavno jelo1</string>
+    <string name="glavno_jelo6_opis">Opis glavnog jela </string>
+    <string name="glavno_jelo6_detail_opis">Detalji glavnog jela</string>
+
+
 </resources>

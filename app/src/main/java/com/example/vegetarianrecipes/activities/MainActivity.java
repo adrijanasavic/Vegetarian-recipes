@@ -12,6 +12,7 @@ import android.os.Bundle;
 import android.view.MenuItem;
 
 import com.example.vegetarianrecipes.R;
+import com.example.vegetarianrecipes.fragments.GlavnaJelaFragment;
 import com.example.vegetarianrecipes.fragments.InformacijeFragment;
 import com.example.vegetarianrecipes.fragments.PredjelaFragment;
 import com.google.android.material.navigation.NavigationView;
@@ -69,6 +70,11 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         } else if (id == R.id.predjela) {
             fragmentManager.beginTransaction()
                     .replace( R.id.content_fragment, new PredjelaFragment() )
+                    .commit();
+
+        } else if (id == R.id.glavna_jela) {
+            fragmentManager.beginTransaction()
+                    .replace( R.id.content_fragment, new GlavnaJelaFragment() )
                     .commit();
         }
         DrawerLayout drawer = findViewById( R.id.drawer_layout );

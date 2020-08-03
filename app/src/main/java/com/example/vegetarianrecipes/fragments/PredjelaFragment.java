@@ -21,6 +21,7 @@ import java.util.List;
 
 
 public class PredjelaFragment extends Fragment {
+
     private List<Jela> predjela;
 
     private static final int PREDJELA = 1;
