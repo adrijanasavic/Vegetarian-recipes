@@ -163,4 +163,57 @@
     <string name="salata7_opis">Salata7 opis</string>
     <string name="salata7_opis_detalji">Salata7 opis detalji</string>
 
+
+    <!-- Dezerti -->
+    <!-- Dezert1 -->
+    <string name="dezert1">※Dezert1</string>
+    <string name="dezert1_opis">Dezert opis\n※~</string>
+    <string name="dezert1_opis_detalji">Dezert opis detalji</string>
+
+    <!-- Dezert2 -->
+    <string name="dezert2">※Dezert2</string>
+    <string name="dezert2_opis">Dezert opis\n※~</string>
+    <string name="dezert2_opis_detalji">Dezert opis detalji</string>
+
+    <!-- Dezert3 -->
+    <string name="dezert3">※Dezert3</string>
+    <string name="dezert3_opis">Dezert opis\n※~</string>
+    <string name="dezert3_opis_detalji">Dezert opis detalji</string>
+
+    <!-- Dezert4 -->
+    <string name="dezert4">※Dezert4</string>
+    <string name="dezert4_opis">Dezert opis\n※~</string>
+    <string name="dezert4_opis_detalji">Dezert opis detalji</string>
+
+    <!-- Dezert5 -->
+    <string name="dezert5">※Dezert5</string>
+    <string name="dezert5_opis">Dezert opis\n※~</string>
+    <string name="dezert5_opis_detalji">Dezert opis detalji</string>
+
+    <!-- Dezert6 -->
+    <string name="dezert6">※Dezert6</string>
+    <string name="dezert6_opis">Dezert opis\n※~</string>
+    <string name="dezert6_opis_detalji">Dezeet opis detalji</string>
+
+    <!-- Dezert7 -->
+    <string name="dezert7">※Dezert7</string>
+    <string name="dezert7_opis">Dezert opis\n※~</string>
+    <string name="dezert7_opis_detalji">Dezert opis detalji</string>
+
+    <!-- Dezert8 -->
+    <string name="dezert8">※Dezert8</string>
+    <string name="dezert8_opis">Dezert opis\n※~</string>
+    <string name="dezert8_opis_detalji">Dezert opis detalji</string>
+
+    <!-- Dezert9 -->
+    <string name="dezert9">※Dezert9</string>
+    <string name="dezert9_opis">Dezert opis\n※~</string>
+    <string name="dezert9_opis_detalji">Dezert opis detalji</string>
+
+    <!-- Dezert10 -->
+    <string name="dezert10">※Dezert10</string>
+    <string name="dezert10_opis">Dezert opis\n※~</string>
+    <string name="dezert10_opis_detalji">Dezert opis detalji</string>
+
+
 </resources>

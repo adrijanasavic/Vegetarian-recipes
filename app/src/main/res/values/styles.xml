@@ -69,6 +69,17 @@
         <item name="android:textColor">@color/color_green_900</item>
     </style>
 
+    <style name="JelaTextViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignBottom">@id/attraction_image_card</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:padding">@dimen/padding_text_view</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
 
     <!-- Style salate TextView in the card_item_shop.xml -->
     <style name="SalateTextViewStyle">
@@ -83,11 +94,21 @@
         <item name="android:textColor">@android:color/white</item>
     </style>
 
-    <!-- Style salate ImageView in the card_item_shop.xml -->
+    <!-- Style salate ImageView in the card_item_salate.xml -->
     <style name="SalateImageViewStyle">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">@dimen/layout_height_salate</item>
         <item name="android:gravity">center</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <!-- Style dezerti imageView in the card_item_dezerti.xml -->
+    <style name="DezertiSlikaViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/layout_height_dezerti</item>
+        <item name="android:layout_alignParentStart">true</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_gravity">center</item>
         <item name="android:scaleType">centerCrop</item>
     </style>
 

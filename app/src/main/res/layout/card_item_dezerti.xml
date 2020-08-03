@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardview_dezerti"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/layout_margin_card"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        card_view:cardCornerRadius="@dimen/card_corner_radius">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/dezeri_slika"
+                style="@style/DezertiSlikaViewStyle"
+                android:contentDescription="@string/image_des" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/layout_height_dezerti"
+                android:background="@drawable/scrim" />
+
+            <TextView
+                android:id="@+id/dezerti_naziv"
+                style="@style/JelaTextViewStyle"
+                android:layout_gravity="center"
+                tools:text="Dezert 1" />
+
+        </FrameLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

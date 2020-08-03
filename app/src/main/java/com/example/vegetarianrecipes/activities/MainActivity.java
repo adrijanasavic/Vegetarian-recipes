@@ -12,6 +12,7 @@ import android.os.Bundle;
 import android.view.MenuItem;
 
 import com.example.vegetarianrecipes.R;
+import com.example.vegetarianrecipes.fragments.DezertiFragment;
 import com.example.vegetarianrecipes.fragments.GlavnaJelaFragment;
 import com.example.vegetarianrecipes.fragments.InformacijeFragment;
 import com.example.vegetarianrecipes.fragments.PredjelaFragment;
@@ -83,6 +84,10 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                     .replace( R.id.content_fragment, new SalateFragment() )
                     .commit();
 
+        } else if (id == R.id.dezerti) {
+            fragmentManager.beginTransaction()
+                    .replace( R.id.content_fragment, new DezertiFragment() )
+                    .commit();
         }
         DrawerLayout drawer = findViewById( R.id.drawer_layout );
         drawer.closeDrawer( GravityCompat.START );

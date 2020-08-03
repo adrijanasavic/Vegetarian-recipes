@@ -18,4 +18,6 @@
     <dimen name="padding_salate_text_view">10dp</dimen>
     <dimen name="layout_height_salate">160dp</dimen>
 
+    <dimen name="layout_height_dezerti">160dp</dimen>
+
 </resources>
