@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Vegetarian recipes</string>
+    <string name="vega">Veganski recepti</string>
+    <string name="splashtime_key">splashtime_settings</string>
+    <string name="splash_key">splash_settings</string>
 </resources>
