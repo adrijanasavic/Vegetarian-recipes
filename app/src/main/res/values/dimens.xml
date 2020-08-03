@@ -13,5 +13,9 @@
     <dimen name="card_corner_radius">8dp</dimen>
     <dimen name="layout_height_image">200dp</dimen>
     <dimen name="padding_text_view">10dp</dimen>
+    <dimen name="card_corner_radius_small">1dp</dimen>
+
+    <dimen name="padding_salate_text_view">10dp</dimen>
+    <dimen name="layout_height_salate">160dp</dimen>
 
 </resources>

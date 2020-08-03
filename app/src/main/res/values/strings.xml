@@ -124,5 +124,43 @@
     <string name="glavno_jelo6_opis">Opis glavnog jela </string>
     <string name="glavno_jelo6_detail_opis">Detalji glavnog jela</string>
 
+    <!-- Salate -->
+    <!-- Salata1 -->
+    <string name="salata1">Salata1</string>
+    <string name="salata1_opis">Salata1 opis</string>
+    <string name="salata1_opis_detalji">Salata1 opis detalji</string>
+    <string name="promenada_adresa"> Булевар ослобођења 119, Нови Сад 21000</string>
+    <string name="promenada_transport">Autobus - 4,7</string>
+    <string name="promenada_rVreme">10:00 ~ 22:00</string>
+
+    <!-- Salata2 -->
+    <string name="salata2">Salata2</string>
+    <string name="salata2_opis">Salata2 opis</string>
+    <string name="salata2_opis_detalji">Salata2 opis detalji</string>
+
+    <!-- Salata3 -->
+    <string name="salata3">Salata3</string>
+    <string name="salata3_opis">Salata3 opis</string>
+    <string name="salata3_opis_detalji">Salata3 opis detalji</string>
+
+    <!-- Salata4 -->
+    <string name="salata4">Salata4</string>
+    <string name="salata4_opis">Salata4 opis</string>
+    <string name="salata4_opis_detalji">Salata4 opis detalji</string>
+
+    <!-- Salata5 -->
+    <string name="salata5">Salata5</string>
+    <string name="salata5_opis">Salata5 opis</string>
+    <string name="salata5_opis_detalji">Salata5 opis detalji</string>
+
+    <!-- Salata6 -->
+    <string name="salata6">Salata6</string>
+    <string name="salata6_opis">Salata6 opis</string>
+    <string name="salata6_opis_detalji">Salata6 opis detalji</string>
+
+    <!-- Salata7 -->
+    <string name="salata7">Salata7</string>
+    <string name="salata7_opis">Salata7 opis</string>
+    <string name="salata7_opis_detalji">Salata7 opis detalji</string>
 
 </resources>

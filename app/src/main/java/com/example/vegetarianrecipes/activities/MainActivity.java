@@ -15,6 +15,7 @@ import com.example.vegetarianrecipes.R;
 import com.example.vegetarianrecipes.fragments.GlavnaJelaFragment;
 import com.example.vegetarianrecipes.fragments.InformacijeFragment;
 import com.example.vegetarianrecipes.fragments.PredjelaFragment;
+import com.example.vegetarianrecipes.fragments.SalateFragment;
 import com.google.android.material.navigation.NavigationView;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
@@ -76,6 +77,12 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             fragmentManager.beginTransaction()
                     .replace( R.id.content_fragment, new GlavnaJelaFragment() )
                     .commit();
+
+        } else if (id == R.id.salate) {
+            fragmentManager.beginTransaction()
+                    .replace( R.id.content_fragment, new SalateFragment() )
+                    .commit();
+
         }
         DrawerLayout drawer = findViewById( R.id.drawer_layout );
         drawer.closeDrawer( GravityCompat.START );
